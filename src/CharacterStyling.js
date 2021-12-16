@@ -2,6 +2,7 @@ import React from "react";
 import { View, StyleSheet, Text, Image } from 'react-native';
 
 const CharcaterStyling = ({ player, choice: { characterImagePath, name }}) => {
+
   const title = name && name.charAt(0).toUpperCase() + name.slice(1);
 
   return (
